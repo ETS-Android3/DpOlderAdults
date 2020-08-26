@@ -9,20 +9,6 @@
     android:layout_marginStart="@dimen/activity_horizontal_margin"
     android:layout_marginEnd="@dimen/activity_horizontal_margin">
 
-<!--    <TextView-->
-<!--        android:id="@+id/text_gallery"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="8dp"-->
-<!--        android:layout_marginTop="8dp"-->
-<!--        android:layout_marginEnd="8dp"-->
-<!--        android:textAlignment="center"-->
-<!--        android:textSize="20sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
     <ImageView
         android:id="@+id/imageViewAvatar"
         android:layout_width="114dp"
@@ -42,7 +28,7 @@
         android:id="@+id/tvLCF1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+        android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/tvLCF2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:text="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        android:text="@string/ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvLCF1"
         app:layout_constraintBottom_toTopOf="@+id/tvLCF3"
@@ -66,7 +52,7 @@
         android:id="@+id/tvLCF3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+        android:text="@string/duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@id/tvLCF2"
         app:layout_constraintBottom_toTopOf="@+id/tvLCF4"

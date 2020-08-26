@@ -30,13 +30,8 @@ public class LargeContentFragment extends Fragment {
         imageView = (ImageView) root.findViewById(R.id.imageViewAvatar);
         imageView.setImageResource(R.drawable.avtar_boy);
         mScaleGestureDetector = new ScaleGestureDetector(getContext(), new ScaleListener());
-//        final TextView textView = root.findViewById(R.id.text_gallery);
-//        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
+// Zoom in on content and zoom out the rest of content.
+// as this is just an example. you can use your own logic.
         textView1 = (TextView) root.findViewById(R.id.tvLCF1);
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +79,7 @@ public class LargeContentFragment extends Fragment {
         mScaleGestureDetector.onTouchEvent(motionEvent);
         return true;
     }
-
+// Detecting the touch location and scaling the content
     private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
         @Override
         public boolean onScale(ScaleGestureDetector scaleGestureDetector){

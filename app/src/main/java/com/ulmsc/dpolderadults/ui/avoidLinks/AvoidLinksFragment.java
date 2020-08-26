@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,8 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.ulmsc.dpolderadults.R;
+
+import java.util.Objects;
 
 public class AvoidLinksFragment extends Fragment {
 
@@ -36,19 +39,27 @@ public class AvoidLinksFragment extends Fragment {
         webView.setWebViewClient(new MyWebViewClient());
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-//        webView.loadUrl("https://m.facebook.com");
         webView.loadUrl("https://www.rte.ie");
         return root;
     }
 
-    private class MyWebViewClient extends WebViewClient {
+    // Making a web client to allow similar links with in the app
+    private static class MyWebViewClient extends WebViewClient {
+
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            if(Uri.parse(url).getHost().endsWith("rte.ie")) {
+            // It the particular links belongs to a different web address it will be blocked automatically.
+            // In this example i am using rte news website so any URL outside of RTE website will not open
+            if(Objects.requireNonNull(Uri.parse(url).getHost()).endsWith("www.rte.ie")) {
                 return false;
             }
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             view.getContext().startActivity(intent);
+            return true;
+        }
+        @Override
+        public boolean shouldOverrideKeyEvent (WebView view, KeyEvent event) {
+
             return true;
         }
     }

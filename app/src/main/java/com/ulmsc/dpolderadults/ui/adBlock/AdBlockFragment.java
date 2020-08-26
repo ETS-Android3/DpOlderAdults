@@ -17,7 +17,7 @@ public class AdBlockFragment extends Fragment {
     {
         View root = inflater.inflate(R.layout.fragment_adblock, container, false);
         AdblockWebView webView = (AdblockWebView) root.findViewById(R.id.webView_adblock);
-        webView.loadUrl("https://www.rte.ie/");
+        webView.loadUrl("https://www.thesun.ie");
         // Enabling Adblock with Open Source Library
         webView.setAdblockEnabled(true);
         return root;

@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Hit the button to launch the application tutorial"
+        android:text="@string/hit_the_button_to_launch_the_application_tutorial"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button_launch_intro"
         app:layout_constraintEnd_toEndOf="parent"

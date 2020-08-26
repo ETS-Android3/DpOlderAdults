@@ -19,7 +19,7 @@ public class MainIntroActivity extends IntroActivity {
         setButtonNextVisible(false);
         setButtonCtaVisible(true);
         setButtonCtaTintMode(BUTTON_CTA_TINT_MODE_TEXT);
-
+//Adding first slide here
         addSlide(new SimpleSlide.Builder()
                 .title(R.string.title_material_metaphor)
                 .description(R.string.description_material_metaphor)
@@ -27,7 +27,7 @@ public class MainIntroActivity extends IntroActivity {
                 .background(R.color.color_material_metaphor)
                 .backgroundDark(R.color.color_dark_material_metaphor)
                 .build());
-
+// adding second slide here
         addSlide(new SimpleSlide.Builder()
                 .title(R.string.title_material_bold)
                 .description(R.string.description_material_bold)
@@ -36,6 +36,7 @@ public class MainIntroActivity extends IntroActivity {
                 .backgroundDark(R.color.color_dark_material_motion)
                 .build());
     }
+    // going back to main activity after intro
     public void onBackPressed()
     {
        Intent intent = new Intent(MainIntroActivity.this, MainNavActivity.class);

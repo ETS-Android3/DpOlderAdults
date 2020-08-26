@@ -22,4 +22,8 @@
     <string name="center_content_explanation">Placing information in the center helps older people to access it easily without getting distracted with other content</string>
     <string name="field_click_details">Clicking on fields below will pop up the right keyboard depending on the field.</string>
     <string name="title_center_information">Require Content placed in center of the screen.</string>
+    <string name="hit_the_button_to_launch_the_application_tutorial">Hit the button to launch the application tutorial</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</string>
+    <string name="ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
 </resources>
