@@ -33,6 +33,4 @@ To setup this repo locally download it or fork it from Android Studio
 
 Mohammad Tauseef Khan – [@mtktausseef](https://twitter.com/mtktauseef)
 
-Distributed under the XYZ license. See ``Educational Community License v2.0`` for more information.
-
 [https://github.com/mtktauseef/DpOlderAdults](https://github.com/mtktauseef/)
