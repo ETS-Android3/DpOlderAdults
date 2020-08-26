@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DpOlderAdults</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Desgin Patterns</string>
+    <string name="nav_header_subtitle">19140886@studentmail.ul.ie</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_large_Content">Large Content</string>
+    <string name="menu_avoid_links">Avoid Links</string>
+
+    <string name="menu_verticalScroll">Vertical Scrolling</string>
+    <string name="menu_adblock">AdBlock</string>
+    <string name="title_material_metaphor">Design Patterns for Older Adults</string>
+    <string name="description_material_metaphor">App provides design patterns require to be introduced in application when developing for Elderly People</string>
+    <string name="title_material_bold"> App Introduction</string>
+    <string name="description_material_bold">App with introduction makes it easier to understand how to use this App.</string>
+    <string name="menu_app_into">App Intro</string>
+    <string name="menu_center_info">Center Content</string>
+    <string name="center_content_explanation">Placing information in the center helps older people to access it easily without getting distracted with other content</string>
+    <string name="field_click_details">Clicking on fields below will pop up the right keyboard depending on the field.</string>
+    <string name="title_center_information">Require Content placed in center of the screen.</string>
+</resources>

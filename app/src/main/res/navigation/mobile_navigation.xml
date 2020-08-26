@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ulmsc.dpolderadults.ui.verticalScroll.VerticalScrollFragment"
+        android:label="@string/menu_verticalScroll"
+        tools:layout="@layout/fragment_vertical_scroll" />
+
+    <fragment
+        android:id="@+id/nav_large_content"
+        android:name="com.ulmsc.dpolderadults.ui.largeContent.LargeContentFragment"
+        android:label="@string/menu_large_Content"
+        tools:layout="@layout/fragment_large_content" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.ulmsc.dpolderadults.ui.avoidLinks.AvoidLinksFragment"
+        android:label="@string/menu_avoid_links"
+        tools:layout="@layout/fragment_avoid_links" />
+    <fragment
+        android:id="@+id/nav_adblock"
+        android:name="com.ulmsc.dpolderadults.ui.adBlock.AdBlockFragment"
+        android:label="@string/menu_adblock"
+        tools:layout="@layout/fragment_adblock" />
+    <fragment
+        android:id="@+id/nav_app_intro"
+        android:name="com.ulmsc.dpolderadults.ui.intro.AppIntro"
+        android:label="@string/menu_app_into"
+        tools:layout="@layout/fragment_appintro"/>
+    <fragment
+        android:id="@+id/nav_center_info"
+        android:name="com.ulmsc.dpolderadults.ui.centerInfo.CenterContent"
+        android:label="@string/menu_center_info"
+        tools:layout="@layout/fragment_center_information"/>
+</navigation>
