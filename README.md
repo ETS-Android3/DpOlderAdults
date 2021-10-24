@@ -9,7 +9,7 @@ To setup this repo locally download it or fork it from Android Studio
 
 ## Meta
 
-Mohammad Tauseef Khan – [@mtktausseef](https://twitter.com/mtktauseef)
+Tauseef Khan – [@mtktauseef](https://twitter.com/mtktauseef)
 
 [https://github.com/mtktauseef/DpOlderAdults](https://github.com/mtktauseef/)
 
